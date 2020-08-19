@@ -10,9 +10,9 @@
 The program adds "way" to the end of words beginning with a vowel.
 Input Example: "octopus"
 Output Example: "octopusway"
------------------------------------------------------------------------------
-For word beginning with multiple consonants in a row, the program moves all of them to
-the end of the word and adds and "ay".
+----------------------------------------------------------------------------
+For words beginning with multiple consonants in a row, the program moves all of them to
+the end of the word and adds an "ay".
 Input Example: "streetlight"
 Output Example: "eetlightstray"
 ----------------------------------------------------------
