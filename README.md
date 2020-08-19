@@ -8,14 +8,21 @@
 ## Test Specs
 
 The program adds "way" to the end of words beginning with a vowel.
-Input Example: "4%"
-Output Example: 0
+Input Example: "octopus"
+Output Example: "octopusway"
 -----------------------------------------------------------------------------
-The program recognizes vowels in a multiple-word sentence.
-Input Example: "cats catered the event"
-Output Example: 7
+For word beginning with multiple consonants in a row, the program moves all of them to
+the end of the word and adds and "ay".
+Input Example: "streetlight"
+Output Example: "eetlightstray"
 ----------------------------------------------------------
-
+If the first consonants include,"qu", the program moves the "u" along with the "q".
+Input Example: "squeal"
+Output Example: "ealsquay"
+---------------------------------------------------------------------------
+For words beginning with "y", the program treats "y" as a consonant.
+Input Example: "yum"
+Output Example: "umyay"
 
 ## Description
 This project is a project made for you & me.
@@ -37,4 +44,5 @@ For this exercise we used html, css, js, & jquery.
 
 ## Legal
 _Copyright (c) 2020 Adam Mansell & Alma Frankenstein_
+
 
